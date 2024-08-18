@@ -29,10 +29,10 @@ html, body {
     background-size: cover; /* Ajusta a imagem para cobrir toda a área do card */
     background-position: center; /* Centraliza a imagem dentro do card */
     background-repeat: no-repeat; /* Evita que a imagem se repita */
- 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Sombra ao redor do card */
     padding: 20px;
 
-    max-width: 700px;
+    max-width: 500px;
     box-sizing: border-box;
     text-align: center;
     opacity: 0.8; /* Define o nível de transparência do card */
