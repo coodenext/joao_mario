@@ -13,6 +13,16 @@ html, body {
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita a repetição da imagem */
   }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh; /* Ocupa toda a altura da tela */
+    padding: 20px;
+    box-sizing: border-box;
+  }
   
   .card {
     background-image: url('caminho/para/sua-imagem.jpg'); /* Substitua pelo caminho da sua imagem */
@@ -30,33 +40,20 @@ html, body {
     opacity: 0.8; /* Define o nível de transparência do card */
   }
   
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh; /* Ocupa toda a altura da tela */
-    padding: 20px;
-    box-sizing: border-box;
-  }
-  
   .card-image {
-    margin-bottom: 20px;
+    position: relative;
+    margin-bottom: 20px; /* Espaçamento inferior para separar do conteúdo seguinte */
   }
   
   .image-inside-card {
     width: 100%;
-    height: auto;
     border-radius: 10px; /* Arredonda os cantos da imagem */
   }
   
   .profile-pic {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
   }
-  
-  .buttons {
-    margin-bottom: 20px;
-  }
+
   
   .btn {
     background-color: #007bff;
@@ -75,14 +72,27 @@ html, body {
   
   .social-icons {
     display: flex;
-    justify-content: center;
-    gap: 15px;
-  }
-  
-  .social-icon {
-    width: 40px;
-    height: auto;
-  }
+    justify-content: center; /* Centraliza horizontalmente os itens */
+    gap: 20px; /* Espaçamento entre os ícones */
+    margin-top: 50px; /* Espaçamento superior para separar do conteúdo anterior */
+    flex-wrap: wrap; /* Permite que os ícones se movam para a linha seguinte se necessário */
+}
+
+.social-item {
+    text-align: center; /* Centraliza o ícone e o texto abaixo dele */
+}
+
+.social-icon {
+    display: block;
+    width: 50px; /* Tamanho do ícone */
+    height: 50px; /* Tamanho do ícone */
+}
+
+.text {
+    margin: 10px 0 0; /* Margem superior para separar o texto do ícone */
+    font-size: 24px; /* Tamanho do texto */
+    color: #ffffff; /* Cor do texto */
+}
   
   @media (max-width: 600px) {
     .btn {
