@@ -88,6 +88,19 @@ html, body {
     font-size: 12px; /* Tamanho do texto */
     color: #ffffff; /* Cor do texto */
 }
+
+.h6 {
+    margin: 5px 0 0; /* Espaço entre o ícone e o texto */
+    font-size: 12px; /* Tamanho reduzido do texto */
+    color: #ffffff; /* Cor do texto */
+}
+
+.footer-text {
+    margin: 0; /* Remove a margem padrão */
+    font-size: 6px; /* Tamanho do texto do rodapé */
+    color: #ffffff; /* Cor do texto do rodapé */
+    text-align: center; /* Centraliza o texto no rodapé */
+}
   
   @media (max-width: 600px) {
     .btn {
