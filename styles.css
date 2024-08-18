@@ -5,6 +5,17 @@
     box-sizing: border-box;
 }
 
+/* Estilos gerais */
+body, html {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
 /* Container para garantir que o card preencha o espaço */
 .container {
     display: flex;
@@ -12,7 +23,7 @@
     align-items: center;
     width: 100vw; /* Usa a largura total da viewport */
     height: 100vh; /* Usa a altura total da viewport */
-    padding: 0 20px; /* Adiciona um pouco de padding lateral para telas grandes */
+    padding: 0 20px; /* Adiciona padding lateral para telas grandes */
     box-sizing: border-box; /* Inclui o padding na largura total */
 }
 
@@ -35,16 +46,24 @@
     text-align: center;
 }
 
+/* Imagem de perfil */
+.profile-pic {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
 
-/* Estilos gerais */
-body, html {
-    font-family: Arial, sans-serif;
-    height: 100%;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f4f4f4;
+/* Estilos para o texto */
+h1 {
+    margin: 10px 0;
+    font-size: 2em;
+}
+
+p {
+    color: #777;
+    font-size: 1.2em;
 }
 
 /* Botões */
@@ -82,7 +101,7 @@ body, html {
     display: flex;
     margin-top: 20px;
     width: 50%;
-    justify-content: center; /* Centraliza os ícones sociais */
+    justify-content: center;
 }
 
 .social-icon {
@@ -142,7 +161,7 @@ body, html {
 /* Media Query para telas pequenas (abaixo de 768px) */
 @media (max-width: 768px) {
     .card {
-        max-width: 90%; /* Ajusta a largura máxima do cartão */
+        max-width: 90%;
         padding: 20px;
     }
 
