@@ -23,9 +23,11 @@ body, html {
     align-items: center;
     width: 100vw; /* Largura total da viewport */
     height: 100vh; /* Altura total da viewport */
-    padding: 0 20px; /* Padding lateral */
-    box-sizing: border-box; /* Inclui o padding na largura total */
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden; /* Garante que não haja rolagem */
 }
+
 
 /* Ajuste do card para preencher o container */
 .card {
@@ -35,17 +37,19 @@ body, html {
     background-repeat: no-repeat;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 100%; /* Largura total do container */
+    width: 90vw; /* Largura ajustada para preencher a tela com algum espaçamento */
     max-width: 1000px; /* Largura máxima do cartão */
+    height: auto; /* Altura ajustada automaticamente para manter a proporção */
     aspect-ratio: 9 / 16; /* Proporção altura/largura */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    text-align: center;
     box-sizing: border-box; /* Inclui padding na largura total */
+    margin: 0 auto; /* Centraliza horizontalmente */
 }
+
 
 /* Imagem de perfil */
 .profile-pic {
@@ -118,6 +122,7 @@ p {
     transform: scale(1.2);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
+
 
 /* Media Query para telas grandes (acima de 1080px) */
 @media (min-width: 1080px) {
