@@ -107,46 +107,118 @@ p {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* Media Queries para diferentes tamanhos de tela */
+
+
+
+/* Media Query para telas de 1080px e maiores */
+@media (min-width: 1080px) {
+    .card {
+        max-width: 500px; /* Ajusta a largura máxima do cartão para telas grandes */
+        padding: 30px; /* Aumenta o padding para telas maiores */
+    }
+
+    h1 {
+        font-size: 2.5em; /* Aumenta o tamanho da fonte do título */
+    }
+
+    p {
+        font-size: 1.4em; /* Aumenta o tamanho da fonte dos parágrafos */
+    }
+
+    .btn {
+        padding: 12px 18px; /* Ajusta o padding dos botões */
+        font-size: 1em; /* Ajusta o tamanho da fonte dos botões */
+        max-width: 220px; /* Aumenta a largura máxima dos botões */
+    }
+
+    .social-icon {
+        width: 50px; /* Ajusta o tamanho dos ícones sociais */
+        height: 50px;
+        margin: 0 20px; /* Ajusta o espaço horizontal entre os ícones sociais */
+    }
+}
+
+
+
+
+/* Media Query para telas entre 768px e 1080px */
+@media (min-width: 768px) and (max-width: 1080px) {
+    .card {
+        max-width: 400px; /* Ajusta a largura máxima do cartão */
+        padding: 25px; /* Ajusta o padding */
+    }
+
+    h1 {
+        font-size: 2em; /* Ajusta o tamanho da fonte do título */
+    }
+
+    p {
+        font-size: 1.2em; /* Ajusta o tamanho da fonte dos parágrafos */
+    }
+
+    .btn {
+        padding: 10px 15px; /* Ajusta o padding dos botões */
+        font-size: 0.9em; /* Ajusta o tamanho da fonte dos botões */
+        max-width: 200px; /* Ajusta a largura máxima dos botões */
+    }
+
+    .social-icon {
+        width: 40px; /* Ajusta o tamanho dos ícones sociais */
+        height: 40px;
+        margin: 0 15px; /* Ajusta o espaço horizontal entre os ícones sociais */
+    }
+}
+
+
+
+/* Media Query para telas menores que 768px */
 @media (max-width: 768px) {
     .card {
-        max-width: 300px;
+        max-width: 300px; /* Ajusta a largura máxima do cartão */
     }
+
     h1 {
-        font-size: 1.5em;
+        font-size: 1.5em; /* Ajusta o tamanho da fonte do título */
     }
+
     p {
-        font-size: 1em;
+        font-size: 1em; /* Ajusta o tamanho da fonte dos parágrafos */
     }
-    .social-icon {
-        width: 25px; /* Ajusta o tamanho dos ícones das redes sociais */
-        height: 25px;
-    }
+
     .btn {
-        width: 80%;   /* Ajusta a largura dos botões para 80% do container pai */
-        font-size: 0.75em;  /* Ajusta o tamanho da fonte */
-        padding: 6px 10px; /* Ajusta o padding proporcionalmente */
-        max-width: 160px;  /* Ajusta a largura máxima dos botões */
+        padding: 6px 10px; /* Ajusta o padding dos botões */
+        font-size: 0.75em; /* Ajusta o tamanho da fonte dos botões */
+        max-width: 160px; /* Ajusta a largura máxima dos botões */
+    }
+
+    .social-icon {
+        width: 25px; /* Ajusta o tamanho dos ícones sociais */
+        height: 25px;
     }
 }
 
 @media (max-width: 480px) {
     .card {
-        max-width: 270px;
+        max-width: 270px; /* Ajusta a largura máxima do cartão */
     }
+
     h1 {
-        font-size: 1.2em;
+        font-size: 1.2em; /* Ajusta o tamanho da fonte do título */
     }
+
     p {
-        font-size: 0.9em;
+        font-size: 0.9em; /* Ajusta o tamanho da fonte dos parágrafos */
     }
+
+    .btn {
+        padding: 4px 8px; /* Ajusta o padding dos botões */
+        font-size: 0.7em; /* Ajusta o tamanho da fonte dos botões */
+        max-width: 140px; /* Ajusta a largura máxima dos botões */
+    }
+
     .social-icon {
-        width: 20px;
+        width: 20px; /* Ajusta o tamanho dos ícones sociais */
         height: 20px;
     }
-    .btn {
-        font-size: 0.7em;   /* Ajusta o tamanho da fonte */
-        padding: 4px 8px;   /* Ajusta o padding proporcionalmente */
-        max-width: 140px;   /* Ajusta a largura máxima dos botões */
-    }
 }
+
