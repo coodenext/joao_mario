@@ -97,7 +97,7 @@ html, body {
 
 .footer-text {
     margin: 0; /* Remove a margem padrão */
-    font-size: 6px; /* Tamanho do texto do rodapé */
+    font-size: 5px; /* Tamanho do texto do rodapé */
     color: #ffffff; /* Cor do texto do rodapé */
     text-align: center; /* Centraliza o texto no rodapé */
 }
