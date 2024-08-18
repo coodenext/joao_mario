@@ -9,7 +9,7 @@ body {
 }
 
 .card {
-    background-image: url('fundo.gif'); /* Substitua 'fundo.gif' pelo nome do seu arquivo de imagem */
+    background-image: url('fundo.png'); /* Substitua 'fundo.gif' pelo nome do seu arquivo de imagem */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -263,6 +263,7 @@ p {
 
 
 
+
 /* Container para ajustar e centralizar o layout */
 .container {
     position: relative;
@@ -285,3 +286,58 @@ p {
     padding: 0;
     margin: 0;
 }
+
+
+
+
+
+/* Adicionando estilos responsivos para manter a proporção e centralizar o layout */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 100%;
+    max-width: 1080px; /* Largura máxima para telas grandes */
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+/* Tornar o layout responsivo para dispositivos menores */
+@media screen and (max-width: 768px) {
+    .card {
+        padding: 10px;
+    }
+    .btn, .btne {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .social-icon {
+        width: 30px;
+        height: 30px;
+        margin: 0 5px;
+    }
+}
+
