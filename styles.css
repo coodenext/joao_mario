@@ -22,9 +22,9 @@ html, body {
     border-radius: 10px; /* Arredonda os cantos do card */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra ao redor do card */
     padding: 20px;
-    max-width: 100%;
+    max-width: 200%;
     width: 100%;
-    max-width: 400px;
+    max-width: 800px;
     box-sizing: border-box;
     text-align: center;
     opacity: 0.8; /* Define o nível de transparência do card */
