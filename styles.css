@@ -1,0 +1,287 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.card {
+    background-image: url('fundo.gif'); /* Substitua 'fundo.gif' pelo nome do seu arquivo de imagem */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 1080px;
+    height: 1920px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Isso coloca os botões na parte inferior */
+    align-items: center;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+p {
+    color: #777;
+    font-size: 16px;
+}
+
+.vote {
+    display: inline-block;
+    margin: 15px;
+    padding: 0px 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.num {
+    font-weight: 900;
+    display: inline-block;
+    margin: -15px;
+    padding: 0px 20px;
+    font-size: 40px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.buttons {
+    margin-top: 1450px;
+    display: flex;
+    flex-direction: center; /* Mantém os botões em coluna */
+    align-items: center;
+}
+
+.proposta {
+    margin-bottom: 300px;
+    display: flex;
+    flex-direction: center; /* Mantém os botões em coluna */
+    align-items: center;
+}
+
+.btne {
+    display: inline-block;
+    margin: 8px;/* Reset básico para remoção de margens e padding */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f4f4f4;
+    }
+    
+    .card {
+        background-image: url('fundo.gif'); /* Substitua 'fundo.gif' pelo nome do seu arquivo de imagem */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        width: 90%;
+        max-width: 600px;
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /* Para que a imagem do perfil seja redonda */
+    .profile-pic {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+    
+    h1 {
+        margin: 10px 0;
+        font-size: 2em; /* Tamanho relativo */
+    }
+    
+    p {
+        color: #777;
+        font-size: 1.2em; /* Tamanho relativo */
+    }
+    
+    .social-icons {
+        margin: 20px 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .social-icon {
+        width: 40px; /* Tamanho dos ícones */
+        height: 40px;
+        margin: 0 10px;
+        border-radius: 50%;
+    }
+    
+    .buttons {
+        display: flex;
+        flex-direction: column; /* Botões em coluna */
+        width: 100%;
+    }
+    
+    .btn {
+        display: inline-block;
+        margin: 5px 0;
+        padding: 10px;
+        font-size: 1em;
+        color: #fff;
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        cursor: pointer;
+        width: 80%;
+        max-width: 300px;
+        align-self: center;
+    }
+    
+    .btn:hover {
+        background-color: #0056b3;
+    }
+    
+    /* Media Queries para diferentes tamanhos de tela */
+    
+    @media (max-width: 768px) {
+        h1 {
+            font-size: 1.5em;
+        }
+        p {
+            font-size: 1em;
+        }
+        .social-icon {
+            width: 35px;
+            height: 35px;
+        }
+        .btn {
+            width: 90%;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .card {
+            padding: 15px;
+        }
+        h1 {
+            font-size: 1.2em;
+        }
+        p {
+            font-size: 0.9em;
+        }
+        .social-icon {
+            width: 30px;
+            height: 30px;
+        }
+        .btn {
+            width: 100%;
+            font-size: 0.9em;
+        }
+    }
+    
+    padding: 20px 30px;
+    font-size: 25px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn {
+    display: inline-block;
+    margin: 8px;
+    padding: 20px 30px;
+    font-size: 25px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.social-icons {
+    position: absolute;
+    bottom: 100px; /* Ajuste conforme necessário para posicionar os ícones acima dos botões */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon {
+    width: 90px;
+    height: 90px;
+    margin: 0 10px;
+    border-radius: 50%;
+    object-fit: cover;
+    z-index: 10;
+}
+
+
+
+
+/* Container para ajustar e centralizar o layout */
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Ajustando o cartão para manter as proporções */
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(calc(min(100vw / 1080, 100vh / 1920)));
+    transform-origin: top left;
+    width: 1080px; /* Largura original do layout */
+    height: 1920px; /* Altura original do layout */
+    max-width: none;
+    max-height: none;
+    padding: 0;
+    margin: 0;
+}
