@@ -32,7 +32,7 @@ html, body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Sombra ao redor do card */
     padding: 20px;
 
-    max-width: 500px;
+    max-width: 400px;
     box-sizing: border-box;
     text-align: center;
     opacity: 0.8; /* Define o nível de transparência do card */
