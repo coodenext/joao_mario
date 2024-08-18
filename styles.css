@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* Estilos gerais */
@@ -20,9 +21,9 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw; /* Usa a largura total da viewport */
-    height: 100vh; /* Usa a altura total da viewport */
-    padding: 0 20px; /* Adiciona padding lateral para telas grandes */
+    width: 100vw; /* Largura total da viewport */
+    height: 100vh; /* Altura total da viewport */
+    padding: 0 20px; /* Padding lateral */
     box-sizing: border-box; /* Inclui o padding na largura total */
 }
 
@@ -35,14 +36,15 @@ body, html {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 100%; /* Largura total do container */
-    max-width: 1000px; /* Define uma largura máxima para o cartão */
-    aspect-ratio: 9 / 16; /* Proporção da altura e largura */
+    max-width: 1000px; /* Largura máxima do cartão */
+    aspect-ratio: 9 / 16; /* Proporção altura/largura */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
     text-align: center;
+    box-sizing: border-box; /* Inclui padding na largura total */
 }
 
 /* Imagem de perfil */
