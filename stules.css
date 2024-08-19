@@ -25,7 +25,6 @@ body {
     margin-bottom: 5px;
 }
 
-
 .video-container {
     width: 50%; /* Certifique-se de que o contêiner do vídeo ocupe toda a largura disponível */
     display: flex;
