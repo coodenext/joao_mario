@@ -25,20 +25,7 @@ body {
     margin-bottom: 5px;
 }
 
-.video-container {
-    width: 50%; /* Certifique-se de que o contêiner do vídeo ocupe toda a largura disponível */
-    display: flex;
-    justify-content: center; /* Centraliza o vídeo horizontalmente */
-    margin-bottom: 20px; /* Espaçamento inferior para separar dos botões */
-}
 
-video {
-    width: 50%; /* Define a largura do vídeo como 100% do contêiner */
-    max-width: 100px; /* Define uma largura máxima para o vídeo */
-    height: auto; /* Mantém a proporção do vídeo */
-    border-radius: 10px; /* Arredonda os cantos do vídeo */
-    display: block; /* Remove qualquer espaço adicional ao redor do vídeo */
-}
 
 
 .social-icons {
