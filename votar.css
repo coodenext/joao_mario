@@ -1,0 +1,87 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('back.png'); /* Imagem de fundo da página */
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh; /* Ocupa toda a altura da tela */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card {
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área do card */
+    background-position: center; /* Centraliza a imagem dentro do card */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    padding: 20px;
+    max-width: 500px;
+    box-sizing: border-box;
+    text-align: center;
+    opacity: 0.8; /* Define o nível de transparência do card */
+}
+
+.card-image {
+    position: relative;
+    margin-bottom: 5px; /* Espaçamento inferior para separar do conteúdo seguinte */
+}
+
+.media-container {
+    text-align: center; /* Centraliza o conteúdo dentro do contêiner */
+    margin-bottom: 20px; /* Espaçamento inferior para separar dos itens seguintes */
+}
+
+.image-above-video {
+    display: block; /* Garante que a imagem se comporte como um bloco */
+    margin: 0 auto 10px; /* Centraliza a imagem horizontalmente e adiciona um espaçamento inferior */
+    width: 100px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 5px; /* Arredonda os cantos da imagem */
+}
+
+.video-element {
+    width: 100%; /* Define a largura do vídeo como 100% do contêiner */
+    max-width: 300px; /* Define a largura máxima do vídeo */
+    height: auto; /* Mantém a proporção do vídeo */
+    border-radius: 10px; /* Arredonda os cantos do vídeo */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente os itens */
+    gap: 20px; /* Espaçamento entre os ícones */
+    margin-top: 20px; /* Espaçamento superior para separar do conteúdo anterior */
+    flex-wrap: wrap; /* Permite que os ícones se movam para a linha seguinte se necessário */
+}
+
+.social-icon {
+    display: block;
+    width: 30px; /* Tamanho do ícone */
+    height: 30px; /* Tamanho do ícone */
+}
+
+.text {
+    font-size: 12px; /* Tamanho do texto */
+    color: #ffffff; /* Cor do texto */
+}
+
+.footer-text {
+    margin: 0; /* Remove a margem padrão */
+    font-size: 10px; /* Tamanho do texto do rodapé */
+    color: #ffffff; /* Cor do texto do rodapé */
+    text-align: center; /* Centraliza o texto no rodapé */
+}
