@@ -72,7 +72,7 @@ html, body {
     display: flex;
     justify-content: center; /* Centraliza horizontalmente os itens */
     gap: 20px; /* Espaçamento entre os ícones */
-    margin-top: 20px; /* Espaçamento superior para separar do conteúdo anterior */
+    margin-top: 10px; /* Espaçamento superior para separar do conteúdo anterior */
     flex-wrap: wrap; /* Permite que os ícones se movam para a linha seguinte se necessário */
 }
 
