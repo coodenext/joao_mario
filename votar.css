@@ -57,14 +57,14 @@ body {
     width: 100%; /* Define a largura do vídeo como 100% do contêiner */
     max-width: 320px; /* Define a largura máxima do vídeo */
     height: auto; /* Mantém a proporção do vídeo */
-    border-radius: 10px; /* Arredonda os cantos do vídeo */
+    border-radius: 7px; /* Arredonda os cantos do vídeo */
 }
 
 .social-icons {
     display: flex;
     justify-content: center; /* Centraliza horizontalmente os itens */
     gap: 20px; /* Espaçamento entre os ícones */
-    margin-top: 2px; /* Espaçamento superior para separar do conteúdo anterior */
+    margin-top: -10px; /* Espaçamento superior para separar do conteúdo anterior */
     flex-wrap: wrap; /* Permite que os ícones se movam para a linha seguinte se necessário */
 }
 
