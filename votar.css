@@ -54,8 +54,8 @@ body {
 }
 
 .video-element {
-    width: 100%; /* Define a largura do vídeo como 100% do contêiner */
-    max-width: 300px; /* Define a largura máxima do vídeo */
+    width: 200%; /* Define a largura do vídeo como 100% do contêiner */
+    max-width: 500px; /* Define a largura máxima do vídeo */
     height: auto; /* Mantém a proporção do vídeo */
     border-radius: 10px; /* Arredonda os cantos do vídeo */
 }
