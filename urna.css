@@ -1,0 +1,163 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+}
+
+.urna-container {
+    background-color: #fff;
+    width: 800px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.display-section {
+    width: 60%;
+    padding: 20px;
+    border-right: 2px solid #ccc;
+}
+
+.candidate-info .office {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.numbers {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.number-box {
+    width: 40px;
+    height: 60px;
+    border: 1px solid #000;
+    text-align: center;
+    font-size: 32px;
+    line-height: 60px;
+    font-weight: bold;
+}
+
+.candidate-details {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.candidate-details img {
+    width: 100px;
+    height: 120px;
+    object-fit: cover;
+    border: 1px solid #000;
+}
+
+.details p {
+    font-size: 16px;
+}
+
+.message {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+    display: none;
+    margin-bottom: 20px;
+}
+
+.instructions {
+    font-size: 14px;
+    color: #555;
+}
+
+.instructions div {
+    margin-top: 5px;
+}
+
+.instructions span {
+    font-weight: bold;
+}
+
+.keyboard-section {
+    width: 40%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.key-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.key {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #d3d3d3;
+    transition: background-color 0.2s;
+}
+
+.key:hover {
+    background-color: #bbb;
+}
+
+.key.zero {
+    width: 190px;
+}
+
+.key.action {
+    width: 100px;
+    height: 60px;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.key.white {
+    background-color: #ccc;
+    color: #000;
+}
+
+.key.orange {
+    background-color: #f39c12;
+}
+
+.key.green {
+    background-color: #27ae60;
+}
+
+@media (max-width: 768px) {
+    .urna-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .display-section, .keyboard-section {
+        width: 100%;
+        border-right: none;
+        border-bottom: 2px solid #ccc;
+    }
+    .keyboard-section {
+        border-bottom: none;
+    }
+}
