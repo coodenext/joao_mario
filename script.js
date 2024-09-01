@@ -19,7 +19,7 @@ const candidates = {
         digits: 2,
         options: {
             '40': {
-                name:'Vinicius Marques/Vice-prefeito: Erik Diniz',
+                name: 'Vinicius Marques/Vice-prefeito: Erik Diniz',
                 party: 'PSB',
                 photo: 'vini.png'
             },
@@ -141,6 +141,11 @@ function confirm() {
         } else {
             document.querySelector('.urna-container').innerHTML = '<div class="end-message">FIM</div>';
             console.log('Votação finalizada');
+
+            // Redireciona automaticamente após 2 segundos
+            setTimeout(() => {
+                window.location.href = "index.html"; // Substitua "index.html" pelo URL correto da página principal
+            }, 2000);
         }
     } else {
         alert('O voto não está completo!');
