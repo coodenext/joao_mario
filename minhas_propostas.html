@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cartão de Visita Digital</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="proposta.css">
 </head>
 <body>
     <div class="container">
         <div class="card">
             <div class="card-image">
-                <div class="profile-pic"> 
-                <img src="img.png" alt="Imagem no Card" class="image-inside-card">
-                <!-- Adicione sua imagem de perfil aqui -->
+                <div class="profile-pic"></div>
             </div>
-            <div class="buttons">
-                <button class="btn" onclick="window.location.href='veja_como_votar.html';">Veja Como Votar</button>
-                <button class="btn" onclick="window.location.href='conheca_minha_historia.html';">Conheça Minha História</button>
-                <button class="btn" id="proposalsBtn">Minhas Propostas</button>
-                <button class="btn" onclick="window.location.href='urna.html';">Simulador da Urna Eletrônica</button>
+
+            <!-- Contêiner para a imagem e o vídeo -->
+            <div class="media-container">
+                <img src="joaomario.png" alt="Imagem Acima do Vídeo" class="image-above-video">
+                <video controls class="video-element">
+                    <source src="historia.mp4" type="video/mp4">
+                    Seu navegador não suporta o elemento de vídeo.
+                </video>
             </div>
+
             <div class="social-icons">
                 <div class="social-item">
                     <a href="https://www.instagram.com/joaomariomachado/" target="_blank">
@@ -32,10 +34,11 @@
                     </a>
                 </div>
             </div>
+            <div class="text">
+                <p>Conheça minhas redes sociais</p>
+            </div>
+            <p class="footer-text">©Copyright Murilo Fagner - 2024</p> <!-- Nome no rodapé -->
         </div>
-       <div class="text">
-               <p>Conheça minhas redes sociais</p>
-               <p class="footer-text">©Copyright Murilo Fagner - 2024</p> <!-- Nome no rodapé -->
     </div>
- </body>
+</body>
 </html>
